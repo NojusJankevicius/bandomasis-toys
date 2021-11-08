@@ -2,14 +2,12 @@
     "Toy": [
         {
             "id": "5210dfx",
-            "title": "beer pong table",
+            "title": "table",
             "price": {
                 "currency": "$",
-                "amount": 3
+                "amount": 300
             },
-            "ageRestrictions": {
-                "from": 18
-            },
+            "ageRestrictions": null,
             "discount": {
                 "type": "percentage",
                 "amount": 20
@@ -21,9 +19,11 @@
             "title": "beer pong table",
             "price": {
                 "currency": "$",
-                "amount": 3
+                "amount": 30
             },
-            "ageRestrictions": null,
+            "ageRestrictions": {
+                "from": 18
+            },
             "discount": {
                 "type": "percentage",
                 "amount": 10
@@ -35,7 +35,7 @@
             "title": "beer pong table",
             "price": {
                 "currency": "$",
-                "amount": 3
+                "amount": 50
             },
             "ageRestrictions": {
                 "from": 18
