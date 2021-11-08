@@ -47,7 +47,10 @@ class ToysGridComponent {
             this.htmlElement.innerHTML = '<img class="w-25" src="assets/loading.gif" />'
         } else {
             this.htmlElement.innerHTML = ""
-            const toysCardComponents = this.state.toys.map(cardProps => new ToyCardComponent(cardProps));
+            const toysCardComponents = this.state.toys.map(({id, ...cardProps}) => new ToyCardComponent({
+                ...cardProps,
+                onDelete: () => this.deleteToy(id)
+            }));
             const cardElements = toysCardComponents.map(component => component.htmlElement)
             const wrappedElements = cardElements.map(this.wrapChild)
             this.htmlElement.append(...wrappedElements)
