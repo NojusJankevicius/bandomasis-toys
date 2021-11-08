@@ -1,0 +1,20 @@
+{
+    "Toy": [
+        {
+            "id": "5210dfx",
+            "title": "beer pong table",
+            "price": {
+                "currency": 200,
+                "amount": 3
+            },
+            "ageRestrictions": {
+                "from": 18
+            },
+            "discount": {
+                "type": 20,
+                "amount": 2
+            },
+            "imgSrc": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FS%2Faplus-media%2Fvc%2F9a1c8700-51f6-45c2-9016-a169070f1c44.jpg&f=1&nofb=1"
+        }
+    ]
+}
