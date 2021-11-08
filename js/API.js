@@ -2,11 +2,14 @@ const url = "http://localhost:3000";
 
 class API {
     static getToys = (success, failure) => {
-        fetch(`${url}/Toy`)
-        .then( res => res.json())
-        .then(success)
-        .catch(failure)
-    }
+        setTimeout(() => {
+            
+            fetch(`${url}/Toy`)
+            .then( res => res.json())
+            .then(success)
+            .catch(failure)
+        }, 1000)
+        }
     
     static deleteToys = (id, success, failure) => {
         fetch(`${url}/Toy/${id}`, {method: 'DELETE'})
