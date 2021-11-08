@@ -2,49 +2,47 @@
     "Toy": [
         {
             "id": "5210dfx",
-            "title": "beer pong table",
+            "title": "table",
             "price": {
-                "currency": 200,
-                "amount": 3
+                "currency": "$",
+                "amount": 300
             },
-            "ageRestrictions": {
-                "from": 18
-            },
+            "ageRestrictions": null,
             "discount": {
-                "type": 20,
-                "amount": 2
+                "type": "percentage",
+                "amount": 20
             },
             "imgSrc": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FS%2Faplus-media%2Fvc%2F9a1c8700-51f6-45c2-9016-a169070f1c44.jpg&f=1&nofb=1"
         },
         {
-            "id": "5210dfx",
+            "id": "521asdasd0dfx",
             "title": "beer pong table",
             "price": {
-                "currency": 200,
-                "amount": 3
+                "currency": "$",
+                "amount": 30
             },
             "ageRestrictions": {
                 "from": 18
             },
             "discount": {
-                "type": 20,
-                "amount": 2
+                "type": "percentage",
+                "amount": 10
             },
             "imgSrc": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FS%2Faplus-media%2Fvc%2F9a1c8700-51f6-45c2-9016-a169070f1c44.jpg&f=1&nofb=1"
         },
         {
-            "id": "5210dfx",
+            "id": "5qawd210garsdfx",
             "title": "beer pong table",
             "price": {
-                "currency": 200,
-                "amount": 3
+                "currency": "$",
+                "amount": 50
             },
             "ageRestrictions": {
                 "from": 18
             },
             "discount": {
-                "type": 20,
-                "amount": 2
+                "type": "percentage",
+                "amount": 30
             },
             "imgSrc": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FS%2Faplus-media%2Fvc%2F9a1c8700-51f6-45c2-9016-a169070f1c44.jpg&f=1&nofb=1"
         }

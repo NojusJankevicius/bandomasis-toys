@@ -8,6 +8,18 @@ class ToysGridComponent {
         this.init();
     }
 
+    fetchToys = () => API.getToys(this.saveData, this.showError)
+
+    deleteToy =(id) => {
+        API.deleteToys(
+            id,
+            this.fetchToys,
+            this.showError
+        );
+
+        this.render()
+    }
+
     saveData = (toys) => {
         this.state.toys = toys;
         this.render();
@@ -25,7 +37,7 @@ class ToysGridComponent {
     }
 
     init = () => {
-        API.getToys(this.saveData, this.showError);
+        this.fetchToys();
         this.htmlElement.className = "row g-3 justify-content-center"
         this.render();
     };
